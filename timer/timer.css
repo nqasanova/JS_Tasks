@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 60px;
+}
+
+#startTimer, #resetTimer {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#startTimer:hover, #resetTimer:hover {
+    background-color: #1e87d7;
+}
+
+#timerDisplay {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+#timerValue {
+    font-weight: bold;
+}
